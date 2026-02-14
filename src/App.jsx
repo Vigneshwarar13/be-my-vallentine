@@ -1,6 +1,7 @@
 import { useState, useMemo, useCallback, useRef } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { config } from "./config";
+import { useEffect } from "react";
 
 function App() {
   const [noLabel, setNoLabel] = useState("NO 💔");
@@ -166,6 +167,25 @@ function App() {
     if (audioRef.current) {
       audioRef.current.volume = newVolume;
     }
+  }, []);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.volume = volume;
+    }
+  }, [volume]);
+
+  useEffect(() => {
+    if (audioRef.current) {
+      audioRef.current.load();
+      if (isPlaying) {
+        audioRef.current.play().catch(() => {});
+      }
+    }
+  }, [currentSongIndex, isPlaying]);
+
+  const handleAudioError = useCallback(() => {
+    setIsPlaying(false);
   }, []);
 
   if (view === "success") {
@@ -448,12 +468,15 @@ function App() {
           {/* Hidden audio element */}
           <audio
             ref={audioRef}
-            src={currentSong.audio}
+            preload="metadata"
+            onError={handleAudioError}
             onTimeUpdate={handleTimeUpdate}
             onLoadedMetadata={handleLoadedMetadata}
             onEnded={handleEnded}
             volume={volume}
-          />
+          >
+            <source src={currentSong.audio} type="audio/mpeg" />
+          </audio>
 
           <div style={{ height: 12 }} />
           <button className="btn yes" onClick={() => setView("gifts")}>

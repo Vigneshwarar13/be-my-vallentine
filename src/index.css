@@ -475,8 +475,19 @@ body {
     gap: 0.8rem;
   }
   .letter-paper {
-    height: 320px;
+    height: auto;
+    min-height: 320px;
     padding: 1rem;
+    overflow: visible;
+  }
+  .letter-title {
+    font-size: clamp(1.6rem, 5vw, 2rem);
+    text-align: center;
+  }
+  .letter-text {
+    font-size: clamp(1rem, 3.6vw, 1.1rem);
+    line-height: 1.8;
+    text-align: left;
   }
   .valentine-root {
     padding: 1rem;
@@ -521,8 +532,17 @@ body {
     font-size: 0.8rem;
   }
   .letter-paper {
-    height: 180px;
+    height: auto;
+    min-height: 220px;
     padding: 0.5rem;
+    overflow: visible;
+  }
+  .letter-title {
+    font-size: clamp(1.4rem, 6vw, 1.8rem);
+  }
+  .letter-text {
+    font-size: clamp(0.95rem, 4vw, 1.05rem);
+    line-height: 1.7;
   }
   .photo-frame {
     height: 100px;
