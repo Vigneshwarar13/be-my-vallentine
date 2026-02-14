@@ -22,18 +22,20 @@ body {
   justify-content: center;
   will-change: scroll-position;
   cursor: url("./assets/red-heart.png"), pointer;
+  overflow-x: hidden;
 }
 
 .valentine-root {
   text-align: center;
   padding: 4rem 2rem;
   border-radius: 16px;
-    overflow-x: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
+  width: 100vw;
+  max-width: 100%;
   min-height: 100vh;
+  flex-wrap: wrap;
 }
 
 .question {
@@ -45,12 +47,12 @@ body {
 .card {
   background: #fff;
   border-radius: 24px;
-  padding: 3rem 3.5rem;
+  padding: 2.5rem 1.5rem;
   box-shadow:
     0 24px 48px rgba(122, 17, 67, 0.12),
     0 12px 24px rgba(122, 17, 67, 0.08);
   max-width: 550px;
-  width: calc(100% - 40px);
+  width: 100%;
   margin: 0 1rem;
   display: flex;
   flex-direction: column;
@@ -58,8 +60,10 @@ body {
 }
 
 .card-image {
-  width: 160px;
-  height: 160px;
+  width: 100%;
+  max-width: 160px;
+  height: auto;
+  aspect-ratio: 1 / 1;
   margin-bottom: 1.5rem;
   border-radius: 16px;
   display: flex;
