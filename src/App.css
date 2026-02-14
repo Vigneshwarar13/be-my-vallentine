@@ -61,6 +61,7 @@ body {
 }
 
 .hover-popup p {
+  overflow-x: hidden;
   margin: 0 0 10px;
 }
 
@@ -75,6 +76,8 @@ body {
 /* -------- MODAL ---------- */
 
 .modal-overlay {
+  width: 100vw;
+  max-width: 100%;
   position: fixed;
   inset: 0;
   background: rgba(0, 0, 0, 0.55);
