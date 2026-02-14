@@ -1,0 +1,169 @@
+{
+  "names": {
+    "sender": "VIGNESHWARAR",
+    "receiver": "ISWARYA SAKTHI"
+  },
+  "theme": {
+    "primaryColor": "#ff7ab2",
+    "secondaryColor": "#ff4d8d",
+    "accentColor": "#ffc0cb",
+    "fontFamily": "Arial, sans-serif"
+  },
+  "content": {
+    "title": "Will you be my Valentine?",
+    "subtitle": "Choose wisely. (The \"No\" button is... shy.)",
+    "yesButtonText": "YES ❤️",
+    "noButtonText": "NO 💔",
+    "successMessage": "💖 YAYYYYY!!! 💖",
+    "successSubtitle": "That's the best decision you've ever made ❤️😘",
+    "giftsTitle": "💝 Your Valentine Gifts 💝",
+    "giftsSubtitle": "Click here for the Valentine gifts, Potatooo",
+    "songsTitle": "Our Love Sounds Like This!🎵",
+    "photosTitle": "Every Moment with You!📸",
+    "letterTitle": "To the Girl I Love most!❤️",
+    "prosConsTitle": "Why You Should Choose me as Your Valentine ❤️",
+    "prosConsSubtitle": "Nothing!!!!"
+  },
+  "media": {
+    "mainBearGif": "/src/assets/cute-bear.gif",
+    "musicBearGif": "/src/assets/music-bear.gif",
+    "comfortBearGif": "/src/assets/comfort-bear.gif",
+    "kissBearGif": "/src/assets/kiss-bears.gif",
+    "photoBearGif": "/src/assets/photo-bear.gif",
+    "loveYouBearGif": "/src/assets/love-you-bear.gif",
+    "childGif": "/src/assets/child.gif",
+    "roseBearGif": "/src/assets/rose-bear.gif",
+    "cookBearGif": "/src/assets/cook-bear.gif",
+    "kissSingleBearGif": "/src/assets/kiss-bear.gif",
+    "leftButton": "/src/assets/left-button.png",
+    "rightButton": "/src/assets/right-button.png",
+    "envelopeSeal": "❤️"
+  },
+  "gifts": {
+    "gift1": "/src/assets/gift/gift1.jpg",
+    "gift2": "/src/assets/gift/gift2.jpg", 
+    "gift3": "/src/assets/gift/gift3.jpg"
+  },
+"couplePhotos": [
+  {
+    "image": "/src/assets/couple_photo/couple_photo_1.PNG",
+    "caption": "Our First Meet – Polar Bear 🤍"
+  },
+  {
+    "image": "/src/assets/couple_photo/couple_photo_2.jpeg", 
+    "caption": "Our First Date – That Sweet Kiss 💋"
+  },
+  {
+    "image": "/src/assets/couple_photo/couple_photo_3.jpeg",
+    "caption": "The Beach – Where No One Exists Except You and Me 🌊"
+  },
+  {
+    "image": "/src/assets/couple_photo/couple_photo_4.jpeg",
+    "caption": "The Way You Make Me Smile Every Time 😊"
+  },
+  { 
+    "image": "/src/assets/couple_photo/couple_photo_5.jpeg",
+   "caption": "Never say no to our food dates & cute cravings 🍕🍫"
+  },
+  {
+   "image": "/src/assets/couple_photo/couple_photo_6.jpeg",
+   "caption": "I’ll never stop buying you things, gifts & surprising you forever 🎁❤️"
+  }
+
+],
+"prosCons": [
+  {
+    "gif": "/src/assets/kiss-bears.gif",
+    "text": "Unlimited hugs & kisses (non-negotiable 😏)"
+  },
+  {
+    "gif": "/src/assets/cook-bear.gif",
+    "text": "I’ll buy you your favorite food, anything you ask… I’ll never let you stay hungry 🍕❤️"
+  },
+  {
+    "gif": "/src/assets/photo-bear.gif",
+    "text": "Your personal photographer for all our cute moments 📸"
+  },
+  {
+    "gif": "/src/assets/cute-bear.gif",
+    "text": "I listen… like actually listen to you 🥺"
+  },
+  {
+    "gif": "/src/assets/music-bear.gif",
+    "text": "I’ll never stop singing just for you 🎶😉"
+  },
+  {
+    "gif": "/src/assets/comfort-bear.gif",
+    "text": "I’ll never stop loving you… ever ❤️"
+  }
+],
+  "songs": [
+    {
+      "id": 1,
+      "title": "Thattaan Thattaan",
+      "duration": "4:50",
+      "album": "Karnan",
+      "artist": "",
+      "cover": "/src/assets/album-covers/karnan.jpeg",
+      "audio": "/src/assets/songs/Thattaan-Thattaan.mp3"
+    },
+    {
+      "id": 2,
+      "title": "Thandhaay",
+      "duration": "3:17", 
+      "album": "Nadigaiyar Thilagam",
+      "artist": "",
+      "cover": "/src/assets/album-covers/nadigaiyar-thilagam.PNG",
+      "audio": "/src/assets/songs/Thandhaay.mp3"
+    },
+    {
+      "id": 3,
+      "title": "Pularaadha",
+      "duration": "4:21",
+      "album": "Dear Comrade",
+      "artist": "",
+      "cover": "/src/assets/album-covers/dear-comrade.PNG",
+      "audio": "/src/assets/songs/Pularaadha.mp3"
+    },
+    {
+      "id": 4,
+      "title": "Padhe Padhe",
+      "duration": "3:26",
+      "album": "Jersey",
+      "artist": "",
+      "cover": "/src/assets/album-covers/Jersey.PNG",
+      "audio": "/src/assets/songs/Padhe-Padhe.mp3"
+    },
+    {
+      "id": 5,
+      "title": "Minnalgal Koothadum",
+      "duration": "6:49",
+      "album": "Polladhavan",
+      "artist": "",
+      "cover": "/src/assets/album-covers/polladhavan.jpeg",
+      "audio": "/src/assets/songs/Minnalgal-Koothadum.mp3"
+    }
+  ],
+  "letter": {
+    "title": "My Dearest Potatooo,",
+    "content": [
+      "I fell in love with you in October, never expected it, but now every day feels so bright just because of you.",
+      "Loving you is the best part of my life, I admire you always… especially your eyes.",
+      "You are my favorite always, and I love you Ishuuu forever."
+    ],
+    "signature": "Forever yours,\nVicky"
+  },
+  "navigation": {
+    "backToLove": "Back to Love",
+    "backToGifts": "Back to Gifts",
+    "backToPhotos": "Back to Photos",
+    "backToSongs": "Back to Songs",
+    "backToLetter": "Back to Letter"
+  },
+  "tooltips": {
+    "previous": "Previous",
+    "next": "Next",
+    "play": "Play",
+    "pause": "Pause"
+  }
+}
