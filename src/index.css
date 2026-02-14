@@ -396,22 +396,102 @@ body {
   }
 }
 
-@media (max-width: 480px) {
-  .image-card {
-    width: 240px;
-    height: 240px;
+/* Responsive Design */
+@media (max-width: 1024px) {
+  .card {
+    padding: 2rem 1rem;
   }
-  .yay {
-    font-size: 1.6rem;
+  .songs-card,
+  .photos-card,
+  .letter-card {
+    max-width: 95vw;
+    padding: 1.5rem 1rem;
+  }
+  .popup {
+    width: 90vw;
+    max-width: 600px;
+    padding: 1.5rem 1rem;
+  }
+  .photos-grid {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .card {
+    padding: 1.2rem 0.5rem;
+  }
+  .songs-card,
+  .photos-card,
+  .letter-card {
+    max-width: 99vw;
+    padding: 1rem 0.5rem;
+  }
+  .popup {
+    width: 98vw;
+    max-width: 98vw;
+    padding: 1rem 0.5rem;
+  }
+  .image-card {
+    max-width: 180px;
+    aspect-ratio: 1 / 1;
+  }
+  .photos-grid {
+    grid-template-columns: 1fr;
+    gap: 0.8rem;
+  }
+  .letter-paper {
+    height: 320px;
+    padding: 1rem;
   }
 }
 
 @media (max-width: 480px) {
+  .card {
+    padding: 0.5rem 0.2rem;
+  }
+  .songs-card,
+  .photos-card,
+  .letter-card {
+    max-width: 100vw;
+    padding: 0.5rem 0.2rem;
+  }
+  .popup {
+    width: 100vw;
+    max-width: 100vw;
+    padding: 0.5rem 0.2rem;
+    border-radius: 12px;
+  }
+  .image-card {
+    max-width: 120px;
+    aspect-ratio: 1 / 1;
+  }
+  .yay {
+    font-size: 1.2rem;
+  }
   .question {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
   }
   .choices {
     flex-direction: column;
+    gap: 8px;
+  }
+  .title {
+    font-size: 1.2rem;
+  }
+  .subtitle {
+    font-size: 0.8rem;
+  }
+  .letter-paper {
+    height: 180px;
+    padding: 0.5rem;
+  }
+  .photo-frame {
+    height: 100px;
+  }
+  .photo-caption {
+    font-size: 0.8rem;
   }
 }
 
