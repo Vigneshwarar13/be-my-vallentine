@@ -25,76 +25,76 @@
     "prosConsSubtitle": "Nothing!!!!"
   },
   "media": {
-    "mainBearGif": "/src/assets/cute-bear.gif",
-    "musicBearGif": "/src/assets/music-bear.gif",
-    "comfortBearGif": "/src/assets/comfort-bear.gif",
-    "kissBearGif": "/src/assets/kiss-bears.gif",
-    "photoBearGif": "/src/assets/photo-bear.gif",
-    "loveYouBearGif": "/src/assets/love-you-bear.gif",
-    "childGif": "/src/assets/child.gif",
-    "roseBearGif": "/src/assets/rose-bear.gif",
-    "cookBearGif": "/src/assets/cook-bear.gif",
-    "kissSingleBearGif": "/src/assets/kiss-bear.gif",
-    "leftButton": "/src/assets/left-button.png",
-    "rightButton": "/src/assets/right-button.png",
+    "mainBearGif": "/images/gifs/cute-bear.gif",
+    "musicBearGif": "/images/gifs/music-bear.gif",
+    "comfortBearGif": "/images/gifs/comfort-bear.gif",
+    "kissBearGif": "/images/gifs/kiss-bears.gif",
+    "photoBearGif": "/images/gifs/photo-bear.gif",
+    "loveYouBearGif": "/images/gifs/love-you-bear.gif",
+    "childGif": "/images/gifs/child.gif",
+    "roseBearGif": "/images/gifs/rose-bear.gif",
+    "cookBearGif": "/images/gifs/cook-bear.gif",
+    "kissSingleBearGif": "/images/gifs/kiss-bear.gif",
+    "leftButton": "/images/gifs/left-button.png",
+    "rightButton": "/images/gifs/right-button.png",
     "envelopeSeal": "❤️"
   },
   "gifts": {
-    "gift1": "/src/assets/gift/gift1.jpg",
-    "gift2": "/src/assets/gift/gift2.jpg", 
-    "gift3": "/src/assets/gift/gift3.jpg"
+    "gift1": "/images/gifts/gift1.jpg",
+    "gift2": "/images/gifts/gift2.jpg", 
+    "gift3": "/images/gifts/gift3.jpg"
   },
 "couplePhotos": [
   {
-    "image": "/src/assets/couple_photo/couple_photo_1.PNG",
+    "image": "/images/couple-photos/couple_photo_1.PNG",
     "caption": "Our First Meet – Polar Bear 🤍"
   },
   {
-    "image": "/src/assets/couple_photo/couple_photo_2.jpeg", 
+    "image": "/images/couple-photos/couple_photo_2.jpeg", 
     "caption": "Our First Date – That Sweet Kiss 💋"
   },
   {
-    "image": "/src/assets/couple_photo/couple_photo_3.jpeg",
+    "image": "/images/couple-photos/couple_photo_3.jpeg",
     "caption": "The Beach – Where No One Exists Except You and Me 🌊"
   },
   {
-    "image": "/src/assets/couple_photo/couple_photo_4.jpeg",
+    "image": "/images/couple-photos/couple_photo_4.jpeg",
     "caption": "The Way You Make Me Smile Every Time 😊"
   },
   { 
-    "image": "/src/assets/couple_photo/couple_photo_5.jpeg",
+    "image": "/images/couple-photos/couple_photo_5.jpeg",
    "caption": "Never say no to our food dates & cute cravings 🍕🍫"
   },
   {
-   "image": "/src/assets/couple_photo/couple_photo_6.jpeg",
-   "caption": "I’ll never stop buying you things, gifts & surprising you forever 🎁❤️"
+   "image": "/images/couple-photos/couple_photo_6.jpeg",
+   "caption": "I'll never stop buying you things, gifts & surprising you forever 🎁❤️"
   }
 
 ],
 "prosCons": [
   {
-    "gif": "/src/assets/kiss-bears.gif",
+    "gif": "/images/gifs/kiss-bears.gif",
     "text": "Unlimited hugs & kisses (non-negotiable 😏)"
   },
   {
-    "gif": "/src/assets/cook-bear.gif",
-    "text": "I’ll buy you your favorite food, anything you ask… I’ll never let you stay hungry 🍕❤️"
+    "gif": "/images/gifs/cook-bear.gif",
+    "text": "I'll buy you your favorite food, anything you ask… I'll never let you stay hungry 🍕❤️"
   },
   {
-    "gif": "/src/assets/photo-bear.gif",
+    "gif": "/images/gifs/photo-bear.gif",
     "text": "Your personal photographer for all our cute moments 📸"
   },
   {
-    "gif": "/src/assets/cute-bear.gif",
+    "gif": "/images/gifs/cute-bear.gif",
     "text": "I listen… like actually listen to you 🥺"
   },
   {
-    "gif": "/src/assets/music-bear.gif",
-    "text": "I’ll never stop singing just for you 🎶😉"
+    "gif": "/images/gifs/music-bear.gif",
+    "text": "I'll never stop singing just for you 🎶😉"
   },
   {
-    "gif": "/src/assets/comfort-bear.gif",
-    "text": "I’ll never stop loving you… ever ❤️"
+    "gif": "/images/gifs/comfort-bear.gif",
+    "text": "I'll never stop loving you… ever ❤️"
   }
 ],
   "songs": [
@@ -104,44 +104,53 @@
       "duration": "4:50",
       "album": "Karnan",
       "artist": "",
-      "cover": "/src/assets/album-covers/karnan.jpeg",
-      "audio": "/src/assets/songs/Thattaan-Thattaan.mp3"
+      "cover": "/images/album-covers/karnan.jpeg",
+      "audio": "/songs/Thattaan-Thattaan.mp3"
+    },
+   {
+      "id": 2,
+      "title": "Pottakaatil Poovasam",
+      "duration": "6:39",
+      "album": "Pariyerum Perumal",
+      "artist": "",
+      "cover": "/images/album-covers/Pariyerum-Perumal.jpeg",
+      "audio": "/songs/Pottakaatil-Poovasam.mp3"
     },
     {
-      "id": 2,
+      "id": 3,
       "title": "Thandhaay",
       "duration": "3:17", 
       "album": "Nadigaiyar Thilagam",
       "artist": "",
-      "cover": "/src/assets/album-covers/nadigaiyar-thilagam.PNG",
-      "audio": "/src/assets/songs/Thandhaay.mp3"
+      "cover": "/images/album-covers/nadigaiyar-thilagam.PNG",
+      "audio": "/songs/Thandhaay.mp3"
     },
     {
-      "id": 3,
+      "id": 4,
       "title": "Pularaadha",
       "duration": "4:21",
       "album": "Dear Comrade",
       "artist": "",
-      "cover": "/src/assets/album-covers/dear-comrade.PNG",
-      "audio": "/src/assets/songs/Pularaadha.mp3"
+      "cover": "/images/album-covers/dear-comrade.PNG",
+      "audio": "/songs/Pularaadha.mp3"
     },
-    {
-      "id": 4,
-      "title": "Padhe Padhe",
-      "duration": "3:26",
-      "album": "Jersey",
-      "artist": "",
-      "cover": "/src/assets/album-covers/Jersey.PNG",
-      "audio": "/src/assets/songs/Padhe-Padhe.mp3"
-    },
-    {
+        {
       "id": 5,
       "title": "Minnalgal Koothadum",
       "duration": "6:49",
       "album": "Polladhavan",
       "artist": "",
-      "cover": "/src/assets/album-covers/polladhavan.jpeg",
-      "audio": "/src/assets/songs/Minnalgal-Koothadum.mp3"
+      "cover": "/images/album-covers/polladhavan.jpeg",
+      "audio": "/songs/Minnalgal-Koothadum.mp3"
+    },
+    {
+      "id": 6,
+      "title": "Padhe Padhe",
+      "duration": "3:26",
+      "album": "Jersey",
+      "artist": "",
+      "cover": "/images/album-covers/Jersey.PNG",
+      "audio": "/songs/Padhe-Padhe.mp3"
     }
   ],
   "letter": {
