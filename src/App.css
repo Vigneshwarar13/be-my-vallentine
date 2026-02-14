@@ -161,7 +161,7 @@ body {
 
 .popup {
   background: white;
-  width: 500px;
+  width: min(92vw, 500px);
   padding: 40px;
   border-radius: 30px;
   text-align: center;
@@ -216,7 +216,7 @@ body {
 
 .pros-cons-popup {
   background: white;
-  width: 800px;
+  width: min(96vw, 800px);
   padding: 30px;
   border-radius: 30px;
   text-align: center;
@@ -990,6 +990,46 @@ body {
     grid-template-columns: 1fr 1fr;
     gap: 16px;
   }
+
+/* Mobile adjustments */
+@media (max-width: 768px) {
+  .valentine-modal {
+    width: min(92vw, 360px);
+    padding: 1rem;
+  }
+  .popup {
+    width: min(92vw, 500px);
+    padding: 1rem;
+  }
+  .pros-cons-popup {
+    width: min(96vw, 800px);
+    padding: 1rem;
+  }
+  .cards-container {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+  .media-player {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+  .album-art-frame {
+    width: min(70vw, 220px);
+    height: auto;
+    aspect-ratio: 1 / 1;
+  }
+  .control-buttons {
+    gap: 12px;
+  }
+}
+
+/* Media scaling */
+img, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
   .popup,
   .pros-cons-popup,
   .slides-popup,
